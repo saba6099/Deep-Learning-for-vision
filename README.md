@@ -1,5 +1,5 @@
 # CUDA-Vision-PyTorch
-Contains Pytorch Assignments on the following topics:
+Contains pytorch Assignments on the following topics:
 1. Logistic Regression Classifier.
 2. Regularization(L1, L2 and Dropout) with different Optimizers and activation functions.
 3. CNN with visualization of activation maps and kernels.
