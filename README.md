@@ -20,8 +20,6 @@ Contains the implementation of a Logistic Regression Classifier with CIFAR-10 da
 A Muti-level perceptron model is implementeed along with regularization methods(Dropout, L1, and L2) for CFAR-10 dataset.
 Five different optimizers are compared for their results and convergence time (SGD, Adam, Adagrad, Adadelta, RMSprop) along with three different activation functions (ReLu, Tanh, Sigmoid).
 
-In each case, the results were kind of counterintuitive as `SGD` and `sigmoid` performed the best. However, it might be possible that the convergence rates simply might be different. Additionally, with the network being this shallow, the benefits of the non-linearities used typically in 'Deep' networks might simply not reflect on a network of this scale. And if run long enough, `SGD` generally converges to a better minima than other optimizers like `Adam`.
-
 ### Assignment 4: CNN for CIFAR-10 with the best hyperparameters 
 The assignment implements training a CNN for CIFAR-10 dataset with the best hyperparameters. Also, activations and kernels of each Conv filter are vizualized. Additionally, the working of MaxPooling or AvgPooling is compared on CIFAR-10.
 
