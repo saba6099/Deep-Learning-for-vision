@@ -35,8 +35,8 @@ Collected a dataset of humanoid robots and implemented the network using transfe
 ### Assignment 6: Denoising Convolutional Autoencoders 
 Implemented a Convolutional Autoencoder network along with denoising Capabilities. Additionally, the learned latent space is futher used for classification task on CIFAR10 dataset. Also, latent space of CAE is used for robot classification and it performs fairly well.
 
-![](https://github.com/saba6099/Deep-Learning-for-vision/blob/master/Assignment%206/actual.png "Actual Images")
-![](https://github.com/saba6099/Deep-Learning-for-vision/blob/master/Assignment%206/reconstructed.png "Reconstructed images")
+!["Actual Images"](https://github.com/saba6099/Deep-Learning-for-vision/blob/master/Assignment%206/actual.png)
+![Reconstructed images](https://github.com/saba6099/Deep-Learning-for-vision/blob/master/Assignment%206/reconstructed.png)
 
 ### Assignment 7: LSTM and GRU manual implementation using PyTorch
 Includes the basic LSTM and GRU library implementation using Pytorch.
