@@ -10,6 +10,7 @@ Assignment folders contain the respective jupyter notebooks along with output im
 
 ### Assignment 1: Logistic Regression Classifier using pure python/numpy
 Contains a 2 layer network implementation for Logistic Regression Classifier using pure python/numpy, using softmax activation function and mean squared error. The network is trained on MNIST data.
+![](https://github.com/saba6099/Deep-Learning-for-vision/blob/master/Assignment%201/curve.png "Training Curve")
 
 ### Assignment 2: Logistic Regression Classifier dataset using PyTorch
 Contains the implementation of a Logistic Regression Classifier with CIFAR-10 dataset using PyTorch, along with the confusion matrix and the learning curve. Also includes finding the best hyperparameters for training the network.
