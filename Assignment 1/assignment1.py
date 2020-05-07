@@ -122,6 +122,7 @@ for i in range(int(len(X_train)/batch_size)):
     W,b = train(X_train[start_index: end_index], onehot_encoded[start_index: end_index], W, b, num_iters, eta)
     start_index = start_index + batch_size
 
+loss = loss/len(X_train)
 plt.plot(range(num_iters), loss)
 plt.xlabel('Iteration')
 plt.ylabel('Loss')
